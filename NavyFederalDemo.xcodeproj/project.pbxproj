@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5BD5B51DB4224400E3B866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BD5B41DB4224400E3B866 /* AppDelegate.swift */; };
+		4C5BD5B71DB4224400E3B866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BD5B61DB4224400E3B866 /* ViewController.swift */; };
+		4C5BD5BA1DB4224400E3B866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BD5B81DB4224400E3B866 /* Main.storyboard */; };
+		4C5BD5BD1DB4224400E3B866 /* NavyFederalDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BD5BB1DB4224400E3B866 /* NavyFederalDemo.xcdatamodeld */; };
+		4C5BD5BF1DB4224400E3B866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BD5BE1DB4224400E3B866 /* Assets.xcassets */; };
+		4C5BD5C21DB4224400E3B866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BD5C01DB4224400E3B866 /* LaunchScreen.storyboard */; };
+		4C5BD5CD1DB4224500E3B866 /* NavyFederalDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BD5CC1DB4224500E3B866 /* NavyFederalDemoTests.swift */; };
+		4C5BD5D81DB4224500E3B866 /* NavyFederalDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5BD5D71DB4224500E3B866 /* NavyFederalDemoUITests.swift */; };
+		4CBD4B6B1DB49142000F5999 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD4B6A1DB49142000F5999 /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5BD5C91DB4224500E3B866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5BD5A91DB4224400E3B866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5BD5B01DB4224400E3B866;
+			remoteInfo = NavyFederalDemo;
+		};
+		4C5BD5D41DB4224500E3B866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5BD5A91DB4224400E3B866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5BD5B01DB4224400E3B866;
+			remoteInfo = NavyFederalDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5BD5B11DB4224400E3B866 /* NavyFederalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavyFederalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5BD5B41DB4224400E3B866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C5BD5B61DB4224400E3B866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C5BD5B91DB4224400E3B866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5BD5BC1DB4224400E3B866 /* NavyFederalDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavyFederalDemo.xcdatamodel; sourceTree = "<group>"; };
+		4C5BD5BE1DB4224400E3B866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5BD5C11DB4224400E3B866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5BD5C31DB4224500E3B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5BD5C81DB4224500E3B866 /* NavyFederalDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavyFederalDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5BD5CC1DB4224500E3B866 /* NavyFederalDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavyFederalDemoTests.swift; sourceTree = "<group>"; };
+		4C5BD5CE1DB4224500E3B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5BD5D31DB4224500E3B866 /* NavyFederalDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavyFederalDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5BD5D71DB4224500E3B866 /* NavyFederalDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavyFederalDemoUITests.swift; sourceTree = "<group>"; };
+		4C5BD5D91DB4224500E3B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBD4B6A1DB49142000F5999 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5BD5AE1DB4224400E3B866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5C51DB4224500E3B866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5D01DB4224500E3B866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5BD5A81DB4224400E3B866 = {
+			isa = PBXGroup;
+			children = (
+				4C5BD5B31DB4224400E3B866 /* NavyFederalDemo */,
+				4C5BD5CB1DB4224500E3B866 /* NavyFederalDemoTests */,
+				4C5BD5D61DB4224500E3B866 /* NavyFederalDemoUITests */,
+				4C5BD5B21DB4224400E3B866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5BD5B21DB4224400E3B866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5BD5B11DB4224400E3B866 /* NavyFederalDemo.app */,
+				4C5BD5C81DB4224500E3B866 /* NavyFederalDemoTests.xctest */,
+				4C5BD5D31DB4224500E3B866 /* NavyFederalDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5BD5B31DB4224400E3B866 /* NavyFederalDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C5BD5B41DB4224400E3B866 /* AppDelegate.swift */,
+				4C5BD5B61DB4224400E3B866 /* ViewController.swift */,
+				4C5BD5B81DB4224400E3B866 /* Main.storyboard */,
+				4CBD4B6A1DB49142000F5999 /* ViewController2.swift */,
+				4C5BD5BE1DB4224400E3B866 /* Assets.xcassets */,
+				4C5BD5C01DB4224400E3B866 /* LaunchScreen.storyboard */,
+				4C5BD5C31DB4224500E3B866 /* Info.plist */,
+				4C5BD5BB1DB4224400E3B866 /* NavyFederalDemo.xcdatamodeld */,
+			);
+			path = NavyFederalDemo;
+			sourceTree = "<group>";
+		};
+		4C5BD5CB1DB4224500E3B866 /* NavyFederalDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5BD5CC1DB4224500E3B866 /* NavyFederalDemoTests.swift */,
+				4C5BD5CE1DB4224500E3B866 /* Info.plist */,
+			);
+			path = NavyFederalDemoTests;
+			sourceTree = "<group>";
+		};
+		4C5BD5D61DB4224500E3B866 /* NavyFederalDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5BD5D71DB4224500E3B866 /* NavyFederalDemoUITests.swift */,
+				4C5BD5D91DB4224500E3B866 /* Info.plist */,
+			);
+			path = NavyFederalDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5BD5B01DB4224400E3B866 /* NavyFederalDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5BD5DC1DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemo" */;
+			buildPhases = (
+				4C5BD5AD1DB4224400E3B866 /* Sources */,
+				4C5BD5AE1DB4224400E3B866 /* Frameworks */,
+				4C5BD5AF1DB4224400E3B866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavyFederalDemo;
+			productName = NavyFederalDemo;
+			productReference = 4C5BD5B11DB4224400E3B866 /* NavyFederalDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5BD5C71DB4224500E3B866 /* NavyFederalDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5BD5DF1DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemoTests" */;
+			buildPhases = (
+				4C5BD5C41DB4224500E3B866 /* Sources */,
+				4C5BD5C51DB4224500E3B866 /* Frameworks */,
+				4C5BD5C61DB4224500E3B866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5BD5CA1DB4224500E3B866 /* PBXTargetDependency */,
+			);
+			name = NavyFederalDemoTests;
+			productName = NavyFederalDemoTests;
+			productReference = 4C5BD5C81DB4224500E3B866 /* NavyFederalDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C5BD5D21DB4224500E3B866 /* NavyFederalDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5BD5E21DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemoUITests" */;
+			buildPhases = (
+				4C5BD5CF1DB4224500E3B866 /* Sources */,
+				4C5BD5D01DB4224500E3B866 /* Frameworks */,
+				4C5BD5D11DB4224500E3B866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5BD5D51DB4224500E3B866 /* PBXTargetDependency */,
+			);
+			name = NavyFederalDemoUITests;
+			productName = NavyFederalDemoUITests;
+			productReference = 4C5BD5D31DB4224500E3B866 /* NavyFederalDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5BD5A91DB4224400E3B866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DrDunkan;
+				TargetAttributes = {
+					4C5BD5B01DB4224400E3B866 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4C5BD5C71DB4224500E3B866 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C5BD5B01DB4224400E3B866;
+					};
+					4C5BD5D21DB4224500E3B866 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4C5BD5B01DB4224400E3B866;
+					};
+				};
+			};
+			buildConfigurationList = 4C5BD5AC1DB4224400E3B866 /* Build configuration list for PBXProject "NavyFederalDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5BD5A81DB4224400E3B866;
+			productRefGroup = 4C5BD5B21DB4224400E3B866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5BD5B01DB4224400E3B866 /* NavyFederalDemo */,
+				4C5BD5C71DB4224500E3B866 /* NavyFederalDemoTests */,
+				4C5BD5D21DB4224500E3B866 /* NavyFederalDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5BD5AF1DB4224400E3B866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5BD5C21DB4224400E3B866 /* LaunchScreen.storyboard in Resources */,
+				4C5BD5BF1DB4224400E3B866 /* Assets.xcassets in Resources */,
+				4C5BD5BA1DB4224400E3B866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5C61DB4224500E3B866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5D11DB4224500E3B866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5BD5AD1DB4224400E3B866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5BD5B71DB4224400E3B866 /* ViewController.swift in Sources */,
+				4CBD4B6B1DB49142000F5999 /* ViewController2.swift in Sources */,
+				4C5BD5BD1DB4224400E3B866 /* NavyFederalDemo.xcdatamodeld in Sources */,
+				4C5BD5B51DB4224400E3B866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5C41DB4224500E3B866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5BD5CD1DB4224500E3B866 /* NavyFederalDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5BD5CF1DB4224500E3B866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5BD5D81DB4224500E3B866 /* NavyFederalDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5BD5CA1DB4224500E3B866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5BD5B01DB4224400E3B866 /* NavyFederalDemo */;
+			targetProxy = 4C5BD5C91DB4224500E3B866 /* PBXContainerItemProxy */;
+		};
+		4C5BD5D51DB4224500E3B866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5BD5B01DB4224400E3B866 /* NavyFederalDemo */;
+			targetProxy = 4C5BD5D41DB4224500E3B866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5BD5B81DB4224400E3B866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5BD5B91DB4224400E3B866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5BD5C01DB4224400E3B866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5BD5C11DB4224400E3B866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5BD5DA1DB4224500E3B866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C5BD5DB1DB4224500E3B866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5BD5DD1DB4224500E3B866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavyFederalDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C5BD5DE1DB4224500E3B866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavyFederalDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C5BD5E01DB4224500E3B866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavyFederalDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavyFederalDemo.app/NavyFederalDemo";
+			};
+			name = Debug;
+		};
+		4C5BD5E11DB4224500E3B866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavyFederalDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavyFederalDemo.app/NavyFederalDemo";
+			};
+			name = Release;
+		};
+		4C5BD5E31DB4224500E3B866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavyFederalDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavyFederalDemo;
+			};
+			name = Debug;
+		};
+		4C5BD5E41DB4224500E3B866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavyFederalDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDunkan.NavyFederalDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavyFederalDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5BD5AC1DB4224400E3B866 /* Build configuration list for PBXProject "NavyFederalDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5BD5DA1DB4224500E3B866 /* Debug */,
+				4C5BD5DB1DB4224500E3B866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5BD5DC1DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5BD5DD1DB4224500E3B866 /* Debug */,
+				4C5BD5DE1DB4224500E3B866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5BD5DF1DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5BD5E01DB4224500E3B866 /* Debug */,
+				4C5BD5E11DB4224500E3B866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5BD5E21DB4224500E3B866 /* Build configuration list for PBXNativeTarget "NavyFederalDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5BD5E31DB4224500E3B866 /* Debug */,
+				4C5BD5E41DB4224500E3B866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C5BD5BB1DB4224400E3B866 /* NavyFederalDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C5BD5BC1DB4224400E3B866 /* NavyFederalDemo.xcdatamodel */,
+			);
+			currentVersion = 4C5BD5BC1DB4224400E3B866 /* NavyFederalDemo.xcdatamodel */;
+			path = NavyFederalDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C5BD5A91DB4224400E3B866 /* Project object */;
+}
